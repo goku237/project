@@ -60,8 +60,6 @@ def ButtonEqual():
     else:
         e.insert(0,fnum/int(second_number))
 
-        print("hello")
-
 button1 = Button(root,text=1,padx=40,pady=20,command= lambda: ButtonClick(1)).grid(row=1,column=0)
 button2 = Button(root,text=2,padx=40,pady=20,command= lambda: ButtonClick(2)).grid(row=1,column=1)
 button3 = Button(root,text=3,padx=40,pady=20,command= lambda: ButtonClick(3)).grid(row=1,column=2)
